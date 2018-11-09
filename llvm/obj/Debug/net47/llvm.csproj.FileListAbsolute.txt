@@ -38,3 +38,11 @@ D:\Software Development\Projects\new findcoin\neoFindCoin-master\llvm\obj\Debug\
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\llvm\obj\Debug\net47\llvm.AssemblyInfo.cs
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\llvm\obj\Debug\net47\llvm.dll
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\llvm\obj\Debug\net47\llvm.pdb
+D:\Software Development\ZoroFindCoin\llvm\bin\Debug\net47\llvm.dll
+D:\Software Development\ZoroFindCoin\llvm\bin\Debug\net47\llvm.pdb
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.csprojAssemblyReference.cache
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.csproj.CoreCompileInputs.cache
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.AssemblyInfoInputs.cache
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.AssemblyInfo.cs
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.dll
+D:\Software Development\ZoroFindCoin\llvm\obj\Debug\net47\llvm.pdb

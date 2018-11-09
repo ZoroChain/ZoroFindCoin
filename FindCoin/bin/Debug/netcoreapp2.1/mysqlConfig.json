@@ -1,12 +1,13 @@
 {
-  //"database=mirror_distribution;server=106.15.200.244;user id=root;Password=jingmian@mysql;sslmode=None"
-  "mysql": {
-    "database": "block",
-    "server": "106.15.200.244",
-    "user id": "root",
-    "Password": "jingmian@mysql",
-    "sslmode": "None"
-  },
-  "startblock": 0,
-  "startNetType": "testnet"
+	//"database=mirror_distribution;server=106.15.200.244;user id=root;Password=jingmian@mysql;sslmode=None"
+	"mysql": {
+		"database": "block",
+		"server": "106.15.200.244",
+		"user id": "root",
+		"Password": "jingmian@mysql",
+		"sslmode": "None"
+	},
+	"startblock": 0,
+	"chainHash": "0xbcb9b86d5aabaf8b175c71b834a0ce9d7b340c6b",
+	"startNetType": "testnet"
 }

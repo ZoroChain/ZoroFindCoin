@@ -5958,11 +5958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\FindCoin\\FindCoin.csproj",
+      "projectUniqueName": "D:\\Software Development\\ZoroFindCoin\\FindCoin\\FindCoin.csproj",
       "projectName": "FindCoin",
-      "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\FindCoin\\FindCoin.csproj",
+      "projectPath": "D:\\Software Development\\ZoroFindCoin\\FindCoin\\FindCoin.csproj",
       "packagesPath": "C:\\Users\\CV-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\FindCoin\\obj\\",
+      "outputPath": "D:\\Software Development\\ZoroFindCoin\\FindCoin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5981,17 +5981,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\llvm\\llvm.csproj": {
-              "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\llvm\\llvm.csproj"
+            "D:\\Software Development\\ZoroFindCoin\\llvm\\llvm.csproj": {
+              "projectPath": "D:\\Software Development\\ZoroFindCoin\\llvm\\llvm.csproj"
             },
-            "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\signtool\\signtool.csproj": {
-              "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\signtool\\signtool.csproj"
+            "D:\\Software Development\\ZoroFindCoin\\signtool\\signtool.csproj": {
+              "projectPath": "D:\\Software Development\\ZoroFindCoin\\signtool\\signtool.csproj"
             },
-            "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK\\thinSDK.csproj": {
-              "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK\\thinSDK.csproj"
+            "D:\\Software Development\\ZoroFindCoin\\thinSDK\\thinSDK.csproj": {
+              "projectPath": "D:\\Software Development\\ZoroFindCoin\\thinSDK\\thinSDK.csproj"
             },
-            "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK_neo\\thinSDK_neo.csproj": {
-              "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK_neo\\thinSDK_neo.csproj"
+            "D:\\Software Development\\ZoroFindCoin\\thinSDK_neo\\thinSDK_neo.csproj": {
+              "projectPath": "D:\\Software Development\\ZoroFindCoin\\thinSDK_neo\\thinSDK_neo.csproj"
             }
           }
         }

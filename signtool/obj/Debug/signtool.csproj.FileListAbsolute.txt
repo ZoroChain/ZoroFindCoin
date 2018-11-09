@@ -130,3 +130,36 @@ D:\Software Development\Projects\new findcoin\neoFindCoin-master\signtool\obj\De
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\signtool\obj\Debug\signtool.csproj.CopyComplete
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\signtool\obj\Debug\signtool.exe
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\signtool\obj\Debug\signtool.pdb
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\signtool.exe.config
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\signtool.exe
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\signtool.pdb
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\thinSDK.dll
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\thinSDK_neo.dll
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\llvm.dll
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\thinSDK.pdb
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\thinSDK_neo.pdb
+D:\Software Development\ZoroFindCoin\signtool\bin\Debug\llvm.pdb
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.csprojAssemblyReference.cache
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\Dialog Import_Nep6.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\Dialog Input.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_MultiSign.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_importTX.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_exportTX.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\MainWindow.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\App.g.cs
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool_MarkupCompile.cache
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool_MarkupCompile.lref
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\Dialog Import_Nep6.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\Dialog Input.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_MultiSign.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_importTX.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\dialog\dialog_exportTX.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\MainWindow.baml
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.g.resources
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.Properties.Resources.resources
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.csproj.GenerateResource.cache
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.csproj.CoreCompileInputs.cache
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.csproj.CopyComplete
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.exe
+D:\Software Development\ZoroFindCoin\signtool\obj\Debug\signtool.pdb

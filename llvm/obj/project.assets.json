@@ -672,11 +672,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\llvm\\llvm.csproj",
+      "projectUniqueName": "D:\\Software Development\\ZoroFindCoin\\llvm\\llvm.csproj",
       "projectName": "llvm",
-      "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\llvm\\llvm.csproj",
+      "projectPath": "D:\\Software Development\\ZoroFindCoin\\llvm\\llvm.csproj",
       "packagesPath": "C:\\Users\\CV-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\llvm\\obj\\",
+      "outputPath": "D:\\Software Development\\ZoroFindCoin\\llvm\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

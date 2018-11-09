@@ -8,5 +8,6 @@
 		"sslmode": "None"
 	},
 	"startblock": 1494400779,
+	"chainHash": "0xbcb9b86d5aabaf8b175c71b834a0ce9d7b340c6b",
 	"startNetType": "testnet"
 }

@@ -43,3 +43,12 @@ D:\Software Development\Projects\new findcoin\neoFindCoin-master\thinSDK_neo\obj
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.AssemblyInfo.cs
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.dll
 D:\Software Development\Projects\new findcoin\neoFindCoin-master\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.pdb
+D:\Software Development\ZoroFindCoin\thinSDK_neo\bin\Debug\netcoreapp2.0\thinSDK_neo.deps.json
+D:\Software Development\ZoroFindCoin\thinSDK_neo\bin\Debug\netcoreapp2.0\thinSDK_neo.dll
+D:\Software Development\ZoroFindCoin\thinSDK_neo\bin\Debug\netcoreapp2.0\thinSDK_neo.pdb
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.csprojAssemblyReference.cache
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.csproj.CoreCompileInputs.cache
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.AssemblyInfoInputs.cache
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.AssemblyInfo.cs
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.dll
+D:\Software Development\ZoroFindCoin\thinSDK_neo\obj\Debug\netcoreapp2.0\thinSDK_neo.pdb

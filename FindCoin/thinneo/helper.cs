@@ -15,6 +15,7 @@ namespace FindCoin.thinneo
         public static int blockHeight = 0;
         public static int blockHeightMax = 500;
         public static int blockTime = 0;
+		public static string chainHash = "0";
         public static string url = "";
 
         public static int BitLen(int w)

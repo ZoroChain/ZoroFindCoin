@@ -7240,11 +7240,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK_neo\\thinSDK_neo.csproj",
+      "projectUniqueName": "D:\\Software Development\\ZoroFindCoin\\thinSDK_neo\\thinSDK_neo.csproj",
       "projectName": "thinSDK_neo",
-      "projectPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK_neo\\thinSDK_neo.csproj",
+      "projectPath": "D:\\Software Development\\ZoroFindCoin\\thinSDK_neo\\thinSDK_neo.csproj",
       "packagesPath": "C:\\Users\\CV-PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Software Development\\Projects\\new findcoin\\neoFindCoin-master\\thinSDK_neo\\obj\\",
+      "outputPath": "D:\\Software Development\\ZoroFindCoin\\thinSDK_neo\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

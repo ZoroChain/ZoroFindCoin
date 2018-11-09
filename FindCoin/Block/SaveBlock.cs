@@ -32,6 +32,7 @@ namespace FindCoin.Block
             result["nonce"] = jObject["nonce"];
             result["nextconsensus"] = jObject["nextconsensus"];
             result["script"] = jObject["script"];
+			result["chainhash"] = Helper.chainHash;
 
             List<string> slist = new List<string>();
             slist.Add(jObject["hash"].ToString());
@@ -45,7 +46,9 @@ namespace FindCoin.Block
             slist.Add(jObject["nextconsensus"].ToString());
             slist.Add(jObject["script"].ToString());
             slist.Add(jObject["tx"].ToString());
-            MysqlConn.ExecuteDataInsert("block", slist);
+			slist.Add(Helper.chainHash);
+
+			MysqlConn.ExecuteDataInsert("block", slist);
 
             Helper.blockTime = int.Parse(result["time"].ToString());
 

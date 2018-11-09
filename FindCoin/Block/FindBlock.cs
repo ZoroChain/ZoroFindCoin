@@ -38,7 +38,9 @@ namespace FindCoin.Block
         private void run() {           
             Helper.url = getUrl();
             Helper.blockHeight = int.Parse(Config.getConfig()["startblock"].ToString());
-            while (Helper.blockHeight < 500000)
+			Helper.chainHash = Config.getConfig()["chainHash"].ToString();
+
+			while (Helper.blockHeight < 500000)
             {
                 if (Helper.blockHeight > Helper.blockHeightMax)
                 {
@@ -61,28 +63,40 @@ namespace FindCoin.Block
         private void getBlockFromRpc() {
             JToken result = null;
 			JToken hashresult = null;
+			JToken hashstateresult = null;
+
 
 
 			try
 			{
-                var getcounturl = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getblock&params=['0x7c7e5e5101ae252653da5528deb40f57361ebfea0'," + Helper.blockHeight + ",1]"; //
+				var getcounturl = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getblock&params=['" + Helper.chainHash + "'," + Helper.blockHeight + ",1]";
 				var hashlist = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getappchainhashlist&params=[]";
+				var hashstate = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getappchainstate&params=['" + Helper.chainHash + "']";
 
 				var info = wc.DownloadString(getcounturl);
-                var json = JObject.Parse(info);
-                result = json["result"];  
+				var json = JObject.Parse(info);
+				result = json["result"];
+
 				var hinfo = wc.DownloadString(hashlist);
 				var hashjson = JObject.Parse(hinfo);
 				hashresult = hashjson["result"];
+
+				var hstate = wc.DownloadString(hashstate);
+				var hashstatejson = JObject.Parse(hstate);
+				hashstateresult = hashstatejson["result"];
+
 			}
-            catch (Exception e)
-            {
-                Helper.blockHeight--;
-            }
+
+			catch (Exception e)
+			{
+				Helper.blockHeight--;
+			}
             if (result != null) {
                 Helper.blockHeightMax = int.Parse(result["confirmations"].ToString()) + Helper.blockHeight;                
                 SaveBlock.getInstance().Save(result as JObject, null);
 				SaveHashlist.getInstance().Save(hashresult as JObject, null);
+				SaveAppchainstate.getInstance().Save(hashstateresult as JObject, null);
+
 
 			}
 		} 
