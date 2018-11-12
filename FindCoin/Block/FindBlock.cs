@@ -40,6 +40,9 @@ namespace FindCoin.Block
             Helper.blockHeight = int.Parse(Config.getConfig()["startblock"].ToString());
 			Helper.chainHash = Config.getConfig()["chainHash"].ToString();
 
+			SaveState();
+			SaveChainlist();
+
 			while (Helper.blockHeight < 500000)
             {
                 if (Helper.blockHeight > Helper.blockHeightMax)
@@ -49,7 +52,9 @@ namespace FindCoin.Block
                     continue;
                 }
 
-                getBlockFromRpc();
+				
+				getBlockFromRpc();
+				
 
                 ping();
 
@@ -62,28 +67,22 @@ namespace FindCoin.Block
 
         private void getBlockFromRpc() {
             JToken result = null;
-			JToken hashresult = null;
-			JToken hashstateresult = null;
 
 
 
 			try
 			{
-				var getcounturl = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getblock&params=['" + Helper.chainHash + "'," + Helper.blockHeight + ",1]";
-				var hashlist = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getappchainhashlist&params=[]";
-				var hashstate = "http://127.0.0.1:20332/?jsonrpc=2.0&id=1&method=getappchainstate&params=['" + Helper.chainHash + "']";
+				var getcounturl = "http://115.159.53.39:20332/?jsonrpc=2.0&id=1&method=getblock&params=['" + Helper.chainHash + "'," + Helper.blockHeight + ",1]";
+		
+				
 
 				var info = wc.DownloadString(getcounturl);
 				var json = JObject.Parse(info);
 				result = json["result"];
 
-				var hinfo = wc.DownloadString(hashlist);
-				var hashjson = JObject.Parse(hinfo);
-				hashresult = hashjson["result"];
+				
 
-				var hstate = wc.DownloadString(hashstate);
-				var hashstatejson = JObject.Parse(hstate);
-				hashstateresult = hashstatejson["result"];
+				
 
 			}
 
@@ -94,16 +93,44 @@ namespace FindCoin.Block
             if (result != null) {
                 Helper.blockHeightMax = int.Parse(result["confirmations"].ToString()) + Helper.blockHeight;                
                 SaveBlock.getInstance().Save(result as JObject, null);
-				SaveHashlist.getInstance().Save(hashresult as JObject, null);
-				SaveAppchainstate.getInstance().Save(hashstateresult as JObject, null);
+				
 
 
 			}
-		} 
+		}
 
-        private void ping()
+		private void SaveChainlist()
+		{
+			JToken hashresult = null;
+
+
+			var hashlist = "http://115.159.53.39:20332/?jsonrpc=2.0&id=1&method=getappchainhashlist&params=[]";
+
+			var hinfo = wc.DownloadString(hashlist);
+				var hashjson = JObject.Parse(hinfo);
+				hashresult = hashjson["result"];
+
+			SaveHashlist.getInstance().Save(hashresult as JObject, null);
+		}
+
+		private void SaveState()
+		{
+			JToken hashstateresult = null;
+
+			var hashstate = "http://115.159.53.39:20332/?jsonrpc=2.0&id=1&method=getappchainstate&params=['" + Helper.chainHash + "']";
+
+			var hstate = wc.DownloadString(hashstate);
+			var hashstatejson = JObject.Parse(hstate);
+			hashstateresult = hashstatejson["result"];
+
+			SaveAppchainstate.getInstance().Save(hashstateresult as JObject, null);
+		}
+
+		private void ping()
         {
             LogHelper.ping(batchInterval, name());
         }
+
+	
     }
 }

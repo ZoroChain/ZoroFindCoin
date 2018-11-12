@@ -83,7 +83,7 @@ namespace FindCoin.helper
         public static void ping(int interval, string name)
         {
             Thread.Sleep(interval);
-            Console.WriteLine(DateTime.Now + " " + name + " is running..." + Helper.blockHeight);
+            Console.WriteLine(DateTime.Now + " " + name + "data is being pulled from block" + Helper.blockHeight);
         }
     }
 }
