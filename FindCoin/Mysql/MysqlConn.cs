@@ -10,6 +10,29 @@ namespace FindCoin.Mysql
     {
         public static string conf = "";
 
+        public static void CreateTable(string createSql)
+        {
+            //string createTableSql = "create table appchain (id bigint(20) primary key auto_increment, hash varchar(255), size varchar(255), version tinyint(3)," +
+            //    " previousblockhash varchar(255), merkleroot varchar(255)," +
+            //    " time int(11), indexx int(11), nonce varchar(255), nextconsensus varchar(255), script varchar(2048), tx longtext)";
+            using (MySqlConnection conn = new MySqlConnection(conf))
+            {
+                conn.Open();
+                try
+                {
+                    using (MySqlCommand cmd = new MySqlCommand(createSql, conn))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+                    Console.WriteLine("建表成功");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("建表失败");
+                }
+            }
+        }
+
         public static DataSet ExecuteDataSet(string tableName, Dictionary<string, string> where) {
             using (MySqlConnection conn = new MySqlConnection(conf)) {
                 conn.Open();
